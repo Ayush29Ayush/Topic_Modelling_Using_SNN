@@ -13,7 +13,7 @@ const TextInput = () => {
 			bodyFormData.append('text', input)
 			const { data } = await axios({
 				method: 'post',
-				url: 'http://cd5d-34-75-177-55.ngrok.io',
+				url: 'http://c168-35-227-70-185.ngrok.io',
 				data: bodyFormData,
 				headers: {
 					'Content-Type': `multipart/form-data; boundary=${bodyFormData._boundary}`,
